@@ -2,6 +2,7 @@ import json,csv,os,html,sys
 sys.path.insert(0,"data"); from vendors import V,D
 BASE="https://mhasnainr.github.io/answerdesk"
 PFX="/answerdesk"
+INDEXNOW_KEY="48d65f659fae24c4a6744a0b122ecfde"
 GSC_TOKEN="LU96EY5HkNru0ro6KkH3sw_qs4yuoi3ACJ04eHcmZz8"  # set to your Google Search Console token to emit the verification tag on the homepage
 O="site"; os.makedirs(O,exist_ok=True)
 json.dump(V,open("data/vendors.json","w"),indent=1)
@@ -98,6 +99,7 @@ for t,g in G.items():
   it="".join(f"<li><a href='/vendors/{v['slug']}.html'>{e(v['name'])}</a>: {e(', '.join(v['integrations']))}</li>" for v in integ) or "<li>None of the vendors we checked list these integrations on their public pages.</li>"
   fq="".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q,a in g["faq"]+[("How current are these prices?",f"We read each vendor's public pricing page on {D}. Prices change, so confirm with the vendor before you buy.")])
   body=f"""<h1>Best AI receptionist for {g['t'].lower()} ({D[:4]})</h1><p>{e(g['why'])}</p>
+<div class="glance" style="border:2px solid #2563eb;border-radius:8px;padding:12px 16px;margin:16px 0;background:#eff6ff"><b>At a glance: cost at {g['c']} calls/month × {g['m']} min</b><ol style="margin:8px 0">{''.join(f"<li><a href='/vendors/{v['slug']}.html'>{e(v['name'])}</a>: <b>${k:,.2f}/mo</b> ({e(p)})</li>" for k,v,p in okc[:3])}</ol><small>Cheapest 3 from our <a href="/calculator.html">calculator</a>, using published prices checked {D}. Excludes setup fees.</small></div>
 <h2>Quick picks</h2><table><tr><th>Best for</th><th>Vendor</th><th>Why</th></tr>{qp}</table>
 <h2>How we chose</h2><p>We include vendors whose own websites mention {g['t'].lower()} or a closely related trade. We rank them only by published facts: price, what's included, overage and listed integrations. We have not tested these services and we don't use reviews. Sponsored placements, if we ever add them, will be labelled and won't change this order.</p>
 <h2>What it costs at a typical volume</h2><p>Assumption: <b>{g['c']} calls a month, averaging {g['m']} minutes each</b> (70% unique callers). Change the numbers in the <a href="/calculator.html">cost calculator</a>.</p><table><tr><th>Vendor</th><th>Type</th><th>Cheapest plan</th><th>Est. $/mo</th></tr>{ct}</table>
@@ -127,3 +129,5 @@ for f in ["vendors.csv","vendors.json"]: shutil.copy("data/"+f,O+"/data/"+f)
 open(O+"/sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+"".join(f"<url><loc>{u}</loc><lastmod>{D}</lastmod></url>" for u in pages)+"</urlset>")
 open(O+"/robots.txt","w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n")
 print(len(V),"vendors",len(pages),"pages")
+
+open(os.path.join(O,INDEXNOW_KEY+".txt"),"w").write(INDEXNOW_KEY)
