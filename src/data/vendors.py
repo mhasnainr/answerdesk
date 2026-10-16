@@ -123,7 +123,7 @@ V+=[
   plans=[P("Solo",154,"minutes",420,None,"inbound only; overage not published")],
   integrations=["ServiceTitan","Jobber","Housecall Pro","Google Calendar"],trades=["garage door"],free_trial=U),
  dict(slug="skipcalls",name="SkipCalls",kind="ai",url="https://skipcalls.com/pricing",
-  plans=[P("Monthly",19.99,"flat",None,0,"no per-minute or overage charges stated; $199/year option")],
+  plans=[P("Monthly (Starter)",19.99,"calls",200,None,"unlimited minutes; fair-usage cap of 200 calls/mo (skipcalls.com/fair-usage, checked 2026-10-16). Over the cap there is no automatic fee; they contact you to upgrade. $199/year option. The pricing page does not label this plan Starter (inferred)"),P("PRO",None,"calls",350,None,"fair-usage cap of 350 calls/mo per skipcalls.com/fair-usage; price not published on the pricing page")],
   integrations=[U],trades=["handyman"],free_trial=U),
  dict(slug="repliant-arc",name="Repliant Arc (Ashley)",kind="ai",url="https://repliantarc.com/handyman.html",
   plans=[P("Ashley Reception",49,"minutes",150,0.20,"setup and third-party costs excluded")],
