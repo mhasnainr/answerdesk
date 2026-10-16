@@ -1,0 +1,31 @@
+name: Build and publish site
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 0 }
+      - name: Decode binary assets
+        run: for f in src/assets/*.b64; do base64 -d "$f" > "${f%.b64}"; done
+      - name: Build
+        run: cd src && python3 build.py
+      - name: Commit built site to main
+        run: |
+          git config user.name "answerdesk-bot"; git config user.email "actions@users.noreply.github.com"
+          rm -rf /tmp/site && cp -r src/site /tmp/site && cp src/build.py /tmp/build.py
+          cp -r /tmp/site/. .
+          git add -A -- . ':!src/site' ':!src/data/vendors.json' ':!src/data/vendors.csv' ':!src/assets/*.png'
+          git commit -m "Publish built site" || echo "nothing to commit"
+          git push origin HEAD:main
+      - name: Copy built site to gh-pages
+        run: |
+          git fetch origin gh-pages
+          git checkout -B gh-pages origin/gh-pages
+          cp -r /tmp/site/. .
+          mkdir -p src && cp /tmp/build.py src/build.py
+          git add -A -- $(cd /tmp/site && find . -type f | sed 's#^\./##') src/build.py
+          git commit -m "Publish built site" || echo "nothing to commit"
+          git push origin gh-pages
