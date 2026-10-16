@@ -94,7 +94,9 @@
    "home services",
    "HVAC",
    "plumbers",
-   "roofers"
+   "roofers",
+   "roofing",
+   "landscaping"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -245,7 +247,8 @@
    "legal",
    "plumbing",
    "home services",
-   "real estate"
+   "real estate",
+   "auto repair"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -297,7 +300,8 @@
   "trades": [
    "HVAC",
    "medical",
-   "real estate"
+   "real estate",
+   "property management"
   ],
   "free_trial": "Free trial offered",
   "date_checked": "2026-10-16",
@@ -344,7 +348,8 @@
    "electricians",
    "law firms",
    "medical",
-   "real estate"
+   "real estate",
+   "property management"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -391,7 +396,9 @@
    "electricians",
    "law firms",
    "home services",
-   "real estate"
+   "real estate",
+   "auto repair",
+   "property management"
   ],
   "free_trial": "7-day free trial",
   "date_checked": "2026-10-16",
@@ -460,12 +467,17 @@
    "Salesforce",
    "Calendly",
    "Square",
-   "Zapier"
+   "Zapier",
+   "AppFolio",
+   "Buildium",
+   "Yardi"
   ],
   "trades": [
    "legal",
    "real estate",
-   "small businesses"
+   "small businesses",
+   "auto repair",
+   "property management"
   ],
   "free_trial": "unknown",
   "affiliate": "30% recurring (myaifrontdesk.com/affiliate)",
@@ -575,7 +587,10 @@
    "HVAC",
    "law firms",
    "salons",
-   "real estate"
+   "real estate",
+   "landscaping",
+   "pest control",
+   "property management"
   ],
   "free_trial": "Free trial offered",
   "date_checked": "2026-10-16",
@@ -688,7 +703,11 @@
    "dentists",
    "salons",
    "law firms",
-   "real estate"
+   "real estate",
+   "landscaping",
+   "pest control",
+   "auto repair",
+   "property management"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -897,7 +916,10 @@
    "HVAC",
    "plumbing",
    "electrical",
-   "roofing"
+   "roofing",
+   "landscaping",
+   "pest control",
+   "garage door"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -926,7 +948,10 @@
    "HVAC",
    "plumbing",
    "electrical",
-   "roofing"
+   "roofing",
+   "pest control",
+   "garage door",
+   "auto repair"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -978,7 +1003,7 @@
    "unknown"
   ],
   "trades": [
-   "unknown"
+   "auto repair"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -1007,7 +1032,9 @@
    "HVAC",
    "plumbing",
    "electrical",
-   "roofing"
+   "roofing",
+   "pest control",
+   "garage door"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -1037,7 +1064,11 @@
    "home services",
    "plumbing",
    "roofers",
-   "real estate"
+   "real estate",
+   "roofing",
+   "cleaning",
+   "pest control",
+   "auto repair"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -1211,12 +1242,19 @@
   "integrations": [
    "Vagaro",
    "Mindbody",
-   "Google Calendar"
+   "Google Calendar",
+   "AccuLynx",
+   "Jobber"
   ],
   "trades": [
    "salons",
    "spas",
-   "small businesses"
+   "small businesses",
+   "roofing",
+   "landscaping",
+   "cleaning",
+   "pest control",
+   "auto repair"
   ],
   "free_trial": "unknown",
   "date_checked": "2026-10-16",
@@ -1320,5 +1358,254 @@
   "date_checked": "2026-10-16",
   "affiliate": "unknown",
   "price_from": 0
+ },
+ {
+  "slug": "ringready",
+  "name": "RingReady",
+  "kind": "ai",
+  "url": "https://www.ring-ready.com/industries/cleaning",
+  "plans": [
+   {
+    "name": "Professional",
+    "price_usd_month": 59,
+    "unit": "flat",
+    "included": null,
+    "overage_usd": 0,
+    "note": "unlimited calls, no per-minute charges"
+   },
+   {
+    "name": "Plus",
+    "price_usd_month": 99,
+    "unit": "flat",
+    "included": null,
+    "overage_usd": 0,
+    "note": "promotional price (listed $129); adds website features"
+   }
+  ],
+  "integrations": [
+   "Jobber",
+   "Housecall Pro"
+  ],
+  "trades": [
+   "cleaning",
+   "garage door",
+   "handyman"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 59
+ },
+ {
+  "slug": "bulayo",
+  "name": "Bulayo",
+  "kind": "ai",
+  "url": "https://bulayo.com/for/garage-door",
+  "plans": [
+   {
+    "name": "200 min",
+    "price_usd_month": 99,
+    "unit": "minutes",
+    "included": 200,
+    "overage_usd": null,
+    "note": "overage not published"
+   },
+   {
+    "name": "500 min",
+    "price_usd_month": 199,
+    "unit": "minutes",
+    "included": 500,
+    "overage_usd": null,
+    "note": ""
+   },
+   {
+    "name": "1,200 min",
+    "price_usd_month": 349,
+    "unit": "minutes",
+    "included": 1200,
+    "overage_usd": null,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "cleaning",
+   "garage door"
+  ],
+  "free_trial": "14-day free trial",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 99
+ },
+ {
+  "slug": "aestar",
+  "name": "Aestar",
+  "kind": "ai",
+  "url": "https://aestarai.com/trades/handyman",
+  "plans": [
+   {
+    "name": "Shop plan",
+    "price_usd_month": 89,
+    "unit": "minutes",
+    "included": 200,
+    "overage_usd": 0.25,
+    "note": "30-day free trial, card required"
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "handyman"
+  ],
+  "free_trial": "30-day free trial",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 89
+ },
+ {
+  "slug": "voxgard",
+  "name": "Voxgard",
+  "kind": "ai",
+  "url": "https://voxgard.com/ai-receptionist-for-handyman",
+  "plans": [
+   {
+    "name": "Basic",
+    "price_usd_month": 249,
+    "unit": "minutes",
+    "included": 300,
+    "overage_usd": 0.55,
+    "note": ""
+   },
+   {
+    "name": "Standard",
+    "price_usd_month": 549,
+    "unit": "minutes",
+    "included": 1000,
+    "overage_usd": 0.35,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Google Calendar",
+   "Calendly"
+  ],
+  "trades": [
+   "handyman",
+   "cleaning"
+  ],
+  "free_trial": "5-day free pilot",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 249
+ },
+ {
+  "slug": "lippy",
+  "name": "Lippy AI",
+  "kind": "ai",
+  "url": "https://www.lippy.ai/industries/garage-doors",
+  "plans": [
+   {
+    "name": "Solo",
+    "price_usd_month": 154,
+    "unit": "minutes",
+    "included": 420,
+    "overage_usd": null,
+    "note": "inbound only; overage not published"
+   }
+  ],
+  "integrations": [
+   "ServiceTitan",
+   "Jobber",
+   "Housecall Pro",
+   "Google Calendar"
+  ],
+  "trades": [
+   "garage door"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 154
+ },
+ {
+  "slug": "skipcalls",
+  "name": "SkipCalls",
+  "kind": "ai",
+  "url": "https://skipcalls.com/pricing",
+  "plans": [
+   {
+    "name": "Monthly",
+    "price_usd_month": 19.99,
+    "unit": "flat",
+    "included": null,
+    "overage_usd": 0,
+    "note": "no per-minute or overage charges stated; $199/year option"
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "handyman"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 19.99
+ },
+ {
+  "slug": "repliant-arc",
+  "name": "Repliant Arc (Ashley)",
+  "kind": "ai",
+  "url": "https://repliantarc.com/handyman.html",
+  "plans": [
+   {
+    "name": "Ashley Reception",
+    "price_usd_month": 49,
+    "unit": "minutes",
+    "included": 150,
+    "overage_usd": 0.2,
+    "note": "setup and third-party costs excluded"
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "handyman"
+  ],
+  "free_trial": "30-day money-back",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 49
+ },
+ {
+  "slug": "one-dash-zero",
+  "name": "One Dash Zero",
+  "kind": "ai",
+  "url": "https://onedashzero.ai/industries/handyman",
+  "plans": [
+   {
+    "name": "AI Receptionist",
+    "price_usd_month": 99,
+    "unit": "minutes",
+    "included": 200,
+    "overage_usd": null,
+    "note": "optional $299 onboarding; extra minutes priced on vendor site"
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "handyman"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 99
  }
 ]
