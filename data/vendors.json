@@ -1537,12 +1537,20 @@
   "url": "https://skipcalls.com/pricing",
   "plans": [
    {
-    "name": "Monthly",
+    "name": "Monthly (Starter)",
     "price_usd_month": 19.99,
-    "unit": "flat",
-    "included": null,
-    "overage_usd": 0,
-    "note": "no per-minute or overage charges stated; $199/year option"
+    "unit": "calls",
+    "included": 200,
+    "overage_usd": null,
+    "note": "unlimited minutes; fair-usage cap of 200 calls/mo (skipcalls.com/fair-usage, checked 2026-10-16). Over the cap there is no automatic fee; they contact you to upgrade. $199/year option. The pricing page does not label this plan Starter (inferred)"
+   },
+   {
+    "name": "PRO",
+    "price_usd_month": null,
+    "unit": "calls",
+    "included": 350,
+    "overage_usd": null,
+    "note": "fair-usage cap of 350 calls/mo per skipcalls.com/fair-usage; price not published on the pricing page"
    }
   ],
   "integrations": [
