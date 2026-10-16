@@ -1,0 +1,1097 @@
+[
+ {
+  "slug": "smith-ai",
+  "name": "Smith.ai (AI Receptionist)",
+  "kind": "ai",
+  "url": "https://smith.ai/pricing/ai-receptionist",
+  "plans": [
+   {
+    "name": "Free",
+    "price_usd_month": 0,
+    "unit": "calls",
+    "included": 25,
+    "overage_usd": 3.0,
+    "note": ""
+   },
+   {
+    "name": "Pro",
+    "price_usd_month": 150,
+    "unit": "calls",
+    "included": 75,
+    "overage_usd": 2.0,
+    "note": "per-call rate drops at 150/300 calls"
+   },
+   {
+    "name": "Enterprise",
+    "price_usd_month": 500,
+    "unit": "calls",
+    "included": 300,
+    "overage_usd": 1.67,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Clio",
+   "Calendly",
+   "Zapier"
+  ],
+  "trades": [
+   "law firms",
+   "home services",
+   "medical",
+   "real estate"
+  ],
+  "free_trial": "Free plan (25 calls/mo)",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 0
+ },
+ {
+  "slug": "ruby",
+  "name": "Ruby Receptionists",
+  "kind": "human",
+  "url": "https://www.ruby.com/plans-and-pricing/",
+  "plans": [
+   {
+    "name": "50 min",
+    "price_usd_month": 250,
+    "unit": "minutes",
+    "included": 50,
+    "overage_usd": null,
+    "note": "overage rate not published"
+   },
+   {
+    "name": "100 min",
+    "price_usd_month": 395,
+    "unit": "minutes",
+    "included": 100,
+    "overage_usd": null,
+    "note": ""
+   },
+   {
+    "name": "200 min",
+    "price_usd_month": 720,
+    "unit": "minutes",
+    "included": 200,
+    "overage_usd": null,
+    "note": ""
+   },
+   {
+    "name": "500 min",
+    "price_usd_month": 1725,
+    "unit": "minutes",
+    "included": 500,
+    "overage_usd": null,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Square"
+  ],
+  "trades": [
+   "legal",
+   "dentists",
+   "home services",
+   "HVAC",
+   "plumbers",
+   "roofers"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 250
+ },
+ {
+  "slug": "abby-connect",
+  "name": "Abby Connect",
+  "kind": "hybrid",
+  "url": "https://www.abby.com/pricing/",
+  "plans": [
+   {
+    "name": "Starter",
+    "price_usd_month": 165,
+    "unit": "minutes",
+    "included": 50,
+    "overage_usd": null,
+    "note": "AI minute counts as 0.5 Abby Minute; overage at plan rate"
+   },
+   {
+    "name": "Essential",
+    "price_usd_month": 329,
+    "unit": "minutes",
+    "included": 100,
+    "overage_usd": null,
+    "note": ""
+   },
+   {
+    "name": "Professional",
+    "price_usd_month": 599,
+    "unit": "minutes",
+    "included": 200,
+    "overage_usd": null,
+    "note": ""
+   },
+   {
+    "name": "Growth",
+    "price_usd_month": 1380,
+    "unit": "minutes",
+    "included": 500,
+    "overage_usd": null,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "legal",
+   "dental",
+   "home services",
+   "real estate"
+  ],
+  "free_trial": "Free trial offered",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 165
+ },
+ {
+  "slug": "patlive",
+  "name": "PATLive",
+  "kind": "human",
+  "url": "https://www.patlive.com/pricing/",
+  "plans": [
+   {
+    "name": "Pay as you go",
+    "price_usd_month": 49,
+    "unit": "minutes",
+    "included": 0,
+    "overage_usd": 2.99,
+    "note": ""
+   },
+   {
+    "name": "100 min",
+    "price_usd_month": 189,
+    "unit": "minutes",
+    "included": 100,
+    "overage_usd": 2.09,
+    "note": ""
+   },
+   {
+    "name": "1,000 min",
+    "price_usd_month": 1499,
+    "unit": "minutes",
+    "included": 1000,
+    "overage_usd": 1.69,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Salesforce"
+  ],
+  "trades": [
+   "legal",
+   "medical",
+   "home services",
+   "real estate"
+  ],
+  "free_trial": "Free trial offered",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 49
+ },
+ {
+  "slug": "moneypenny",
+  "name": "Moneypenny (formerly VoiceNation)",
+  "kind": "human",
+  "url": "https://www.moneypenny.com/us/pricing/",
+  "plans": [
+   {
+    "name": "50 min",
+    "price_usd_month": 165,
+    "unit": "minutes",
+    "included": 50,
+    "overage_usd": 2.28,
+    "note": ""
+   },
+   {
+    "name": "100 min",
+    "price_usd_month": 265,
+    "unit": "minutes",
+    "included": 100,
+    "overage_usd": 2.12,
+    "note": ""
+   },
+   {
+    "name": "200 min",
+    "price_usd_month": 422,
+    "unit": "minutes",
+    "included": 200,
+    "overage_usd": 1.91,
+    "note": ""
+   },
+   {
+    "name": "500 min",
+    "price_usd_month": 985,
+    "unit": "minutes",
+    "included": 500,
+    "overage_usd": 1.67,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "legal",
+   "plumbing",
+   "home services",
+   "real estate"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 165
+ },
+ {
+  "slug": "specialty-answering-service",
+  "name": "Specialty Answering Service",
+  "kind": "human",
+  "url": "https://www.specialtyansweringservice.net/pricing/",
+  "plans": [
+   {
+    "name": "Economy",
+    "price_usd_month": 44,
+    "unit": "minutes",
+    "included": 0,
+    "overage_usd": 1.54,
+    "note": ""
+   },
+   {
+    "name": "100 min",
+    "price_usd_month": 159,
+    "unit": "minutes",
+    "included": 100,
+    "overage_usd": 1.44,
+    "note": ""
+   },
+   {
+    "name": "500 min",
+    "price_usd_month": 649,
+    "unit": "minutes",
+    "included": 500,
+    "overage_usd": 1.34,
+    "note": ""
+   },
+   {
+    "name": "1,000 min",
+    "price_usd_month": 1199,
+    "unit": "minutes",
+    "included": 1000,
+    "overage_usd": 1.29,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "HVAC",
+   "medical",
+   "real estate"
+  ],
+  "free_trial": "Free trial offered",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 44
+ },
+ {
+  "slug": "ambs-ai",
+  "name": "Ambs Call Center (AI Receptionist)",
+  "kind": "ai",
+  "url": "https://www.ambscallcenter.com/pricing",
+  "plans": [
+   {
+    "name": "Starter",
+    "price_usd_month": 19,
+    "unit": "minutes",
+    "included": 0,
+    "overage_usd": 0.79,
+    "note": "$85 one-time setup"
+   },
+   {
+    "name": "250 min",
+    "price_usd_month": 185,
+    "unit": "minutes",
+    "included": 250,
+    "overage_usd": 0.75,
+    "note": ""
+   },
+   {
+    "name": "500 min",
+    "price_usd_month": 350,
+    "unit": "minutes",
+    "included": 500,
+    "overage_usd": 0.72,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Zapier"
+  ],
+  "trades": [
+   "plumbing",
+   "HVAC",
+   "electricians",
+   "law firms",
+   "medical",
+   "real estate"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 19
+ },
+ {
+  "slug": "rosie",
+  "name": "Rosie",
+  "kind": "ai",
+  "url": "https://www.heyrosie.com/pricing",
+  "plans": [
+   {
+    "name": "Professional",
+    "price_usd_month": 49,
+    "unit": "minutes",
+    "included": 250,
+    "overage_usd": null,
+    "note": "overage not published"
+   },
+   {
+    "name": "Scale",
+    "price_usd_month": 149,
+    "unit": "minutes",
+    "included": 1000,
+    "overage_usd": null,
+    "note": ""
+   },
+   {
+    "name": "Growth",
+    "price_usd_month": 299,
+    "unit": "minutes",
+    "included": 2000,
+    "overage_usd": null,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Zapier"
+  ],
+  "trades": [
+   "plumbing",
+   "HVAC",
+   "electricians",
+   "law firms",
+   "home services",
+   "real estate"
+  ],
+  "free_trial": "7-day free trial",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 49
+ },
+ {
+  "slug": "goodcall",
+  "name": "Goodcall",
+  "kind": "ai",
+  "url": "https://www.goodcall.com/pricing",
+  "plans": [
+   {
+    "name": "Starter",
+    "price_usd_month": 79,
+    "unit": "unique",
+    "included": 100,
+    "overage_usd": 0.79,
+    "note": ""
+   },
+   {
+    "name": "Growth",
+    "price_usd_month": 129,
+    "unit": "unique",
+    "included": 500,
+    "overage_usd": 0.26,
+    "note": ""
+   },
+   {
+    "name": "Scale",
+    "price_usd_month": 299,
+    "unit": "unique",
+    "included": 2000,
+    "overage_usd": 0.15,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Zapier"
+  ],
+  "trades": [
+   "local service businesses"
+  ],
+  "free_trial": "Free demo agent",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 79
+ },
+ {
+  "slug": "my-ai-front-desk",
+  "name": "Frontdesk (My AI Front Desk)",
+  "kind": "ai",
+  "url": "https://www.myaifrontdesk.com/pricing",
+  "plans": [
+   {
+    "name": "Business-in-a-Box",
+    "price_usd_month": 99,
+    "unit": "minutes",
+    "included": 200,
+    "overage_usd": null,
+    "note": "$79/mo billed annually; overage via credits"
+   }
+  ],
+  "integrations": [
+   "HubSpot",
+   "Salesforce",
+   "Calendly",
+   "Square",
+   "Zapier"
+  ],
+  "trades": [
+   "legal",
+   "real estate",
+   "small businesses"
+  ],
+  "free_trial": "unknown",
+  "affiliate": "30% recurring (myaifrontdesk.com/affiliate)",
+  "date_checked": "2026-10-16",
+  "price_from": 99
+ },
+ {
+  "slug": "dialzara",
+  "name": "Dialzara",
+  "kind": "ai",
+  "url": "https://dialzara.com/pricing",
+  "plans": [
+   {
+    "name": "Business Lite",
+    "price_usd_month": 29,
+    "unit": "minutes",
+    "included": 60,
+    "overage_usd": 0.48,
+    "note": ""
+   },
+   {
+    "name": "Business Pro",
+    "price_usd_month": 99,
+    "unit": "minutes",
+    "included": 220,
+    "overage_usd": 0.45,
+    "note": ""
+   },
+   {
+    "name": "Business Plus",
+    "price_usd_month": 199,
+    "unit": "minutes",
+    "included": 500,
+    "overage_usd": 0.4,
+    "note": ""
+   },
+   {
+    "name": "Business Elite",
+    "price_usd_month": 349,
+    "unit": "minutes",
+    "included": 1000,
+    "overage_usd": 0.35,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Outlook",
+   "Zapier"
+  ],
+  "trades": [
+   "unknown"
+  ],
+  "free_trial": "Free trial offered",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 29
+ },
+ {
+  "slug": "upfirst",
+  "name": "Upfirst",
+  "kind": "ai",
+  "url": "https://upfirst.ai/pricing",
+  "plans": [
+   {
+    "name": "Starter",
+    "price_usd_month": 24.95,
+    "unit": "calls",
+    "included": 30,
+    "overage_usd": 1.5,
+    "note": ""
+   },
+   {
+    "name": "Premium",
+    "price_usd_month": 59.95,
+    "unit": "calls",
+    "included": 90,
+    "overage_usd": 1.0,
+    "note": ""
+   },
+   {
+    "name": "Pro",
+    "price_usd_month": 159.95,
+    "unit": "calls",
+    "included": 300,
+    "overage_usd": 0.75,
+    "note": ""
+   },
+   {
+    "name": "Scale",
+    "price_usd_month": 299,
+    "unit": "calls",
+    "included": 600,
+    "overage_usd": 0.7,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Google Calendar",
+   "Outlook",
+   "Calendly",
+   "Clio",
+   "Square",
+   "Zapier"
+  ],
+  "trades": [
+   "plumbing",
+   "HVAC",
+   "law firms",
+   "salons",
+   "real estate"
+  ],
+  "free_trial": "Free trial offered",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 24.95
+ },
+ {
+  "slug": "oncrew",
+  "name": "OnCrew",
+  "kind": "ai",
+  "url": "https://oncrew.ai/pricing",
+  "plans": [
+   {
+    "name": "Starter",
+    "price_usd_month": 49,
+    "unit": "calls",
+    "included": 100,
+    "overage_usd": 0.99,
+    "note": ""
+   },
+   {
+    "name": "Pro",
+    "price_usd_month": 149,
+    "unit": "calls",
+    "included": 400,
+    "overage_usd": 0.99,
+    "note": ""
+   },
+   {
+    "name": "Multi-Truck",
+    "price_usd_month": 349,
+    "unit": "calls",
+    "included": 1000,
+    "overage_usd": 0.99,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Jobber",
+   "Housecall Pro"
+  ],
+  "trades": [
+   "plumbing",
+   "HVAC",
+   "electrical",
+   "roofing"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 49
+ },
+ {
+  "slug": "pickupbell",
+  "name": "PickupBell",
+  "kind": "ai",
+  "url": "https://www.pickupbell.com/",
+  "plans": [
+   {
+    "name": "Flat",
+    "price_usd_month": 199,
+    "unit": "flat",
+    "included": null,
+    "overage_usd": 0,
+    "note": "unlimited calls"
+   }
+  ],
+  "integrations": [
+   "ServiceTitan",
+   "Jobber",
+   "Housecall Pro",
+   "Google Calendar",
+   "HubSpot",
+   "Salesforce",
+   "Zapier"
+  ],
+  "trades": [
+   "plumbing",
+   "HVAC",
+   "roofing"
+  ],
+  "free_trial": "7-day free trial",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 199
+ },
+ {
+  "slug": "oncallclerk",
+  "name": "OnCallClerk",
+  "kind": "ai",
+  "url": "https://www.oncallclerk.com/",
+  "plans": [
+   {
+    "name": "From",
+    "price_usd_month": 29,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "plan limits not published on homepage"
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "plumbing",
+   "HVAC",
+   "electricians",
+   "roofing",
+   "dentists",
+   "salons",
+   "law firms",
+   "real estate"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 29
+ },
+ {
+  "slug": "newo",
+  "name": "Newo.ai",
+  "kind": "ai",
+  "url": "https://newo.ai/pricing/",
+  "plans": [
+   {
+    "name": "Pay As You Go",
+    "price_usd_month": 0,
+    "unit": null,
+    "included": null,
+    "overage_usd": 1.75,
+    "note": "50 free units once; unit definition on vendor site"
+   },
+   {
+    "name": "AI Receptionist",
+    "price_usd_month": 299,
+    "unit": null,
+    "included": null,
+    "overage_usd": 1.5,
+    "note": "200 units/month"
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "dental",
+   "home services"
+  ],
+  "free_trial": "50 free units",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 0
+ },
+ {
+  "slug": "bland",
+  "name": "Bland AI",
+  "kind": "developer",
+  "url": "https://www.bland.ai/pricing",
+  "plans": [
+   {
+    "name": "Start",
+    "price_usd_month": 0,
+    "unit": "permin",
+    "included": 0,
+    "overage_usd": 0.14,
+    "note": ""
+   },
+   {
+    "name": "Build",
+    "price_usd_month": 299,
+    "unit": "permin",
+    "included": 0,
+    "overage_usd": 0.12,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "developer platform"
+  ],
+  "free_trial": "2 free credits",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 0
+ },
+ {
+  "slug": "retell",
+  "name": "Retell AI",
+  "kind": "developer",
+  "url": "https://www.retellai.com/pricing",
+  "plans": [
+   {
+    "name": "Pay as you go",
+    "price_usd_month": 0,
+    "unit": "permin",
+    "included": 0,
+    "overage_usd": 0.07,
+    "note": "$0.07\u2013$0.31/min depending on voice/LLM"
+   }
+  ],
+  "integrations": [
+   "HubSpot"
+  ],
+  "trades": [
+   "developer platform"
+  ],
+  "free_trial": "$10 free credits",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 0
+ },
+ {
+  "slug": "vapi",
+  "name": "Vapi",
+  "kind": "developer",
+  "url": "https://vapi.ai/pricing",
+  "plans": [
+   {
+    "name": "By usage",
+    "price_usd_month": 0,
+    "unit": "permin",
+    "included": 0,
+    "overage_usd": 0.05,
+    "note": "platform fee only; STT/LLM/TTS/telephony extra"
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "developer platform"
+  ],
+  "free_trial": "$5 free credits",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 0
+ },
+ {
+  "slug": "synthflow",
+  "name": "Synthflow",
+  "kind": "developer",
+  "url": "https://synthflow.ai/pricing",
+  "plans": [
+   {
+    "name": "Pay as you go",
+    "price_usd_month": 0,
+    "unit": "permin",
+    "included": 0,
+    "overage_usd": 0.11,
+    "note": "example total shown on page; Enterprise from $30,000/yr"
+   }
+  ],
+  "integrations": [
+   "HubSpot",
+   "Salesforce",
+   "Zapier"
+  ],
+  "trades": [
+   "developer platform"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 0
+ },
+ {
+  "slug": "justcall",
+  "name": "JustCall",
+  "kind": "ai",
+  "url": "https://justcall.io/pricing/",
+  "plans": [
+   {
+    "name": "AI pricing",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "AI receptionist price not clearly published"
+   }
+  ],
+  "integrations": [
+   "HubSpot",
+   "Salesforce",
+   "Calendly",
+   "Zapier"
+  ],
+  "trades": [
+   "home services",
+   "legal",
+   "real estate"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "sameday",
+  "name": "Sameday AI",
+  "kind": "ai",
+  "url": "https://www.gosameday.com/pricing",
+  "plans": [
+   {
+    "name": "Quote",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "pricing not readable on page"
+   }
+  ],
+  "integrations": [
+   "ServiceTitan"
+  ],
+  "trades": [
+   "HVAC",
+   "plumbing",
+   "electrical",
+   "roofing"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "avoca",
+  "name": "Avoca AI",
+  "kind": "ai",
+  "url": "https://www.avoca.ai/",
+  "plans": [
+   {
+    "name": "Quote",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "demo-based pricing"
+   }
+  ],
+  "integrations": [
+   "ServiceTitan"
+  ],
+  "trades": [
+   "HVAC",
+   "plumbing",
+   "electrical",
+   "roofing"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "arini",
+  "name": "Arini",
+  "kind": "ai",
+  "url": "https://www.arini.ai/",
+  "plans": [
+   {
+    "name": "Quote",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "priced by location count"
+   }
+  ],
+  "integrations": [
+   "Calendly"
+  ],
+  "trades": [
+   "dental"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "numa",
+  "name": "Numa",
+  "kind": "ai",
+  "url": "https://www.numa.com/",
+  "plans": [
+   {
+    "name": "Quote",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "unknown"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "signpost",
+  "name": "Signpost",
+  "kind": "ai",
+  "url": "https://www.signpost.com/",
+  "plans": [
+   {
+    "name": "Quote",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "HVAC",
+   "plumbing",
+   "electrical",
+   "roofing"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "nexa",
+  "name": "Nexa",
+  "kind": "hybrid",
+  "url": "https://www.nexa.com/",
+  "plans": [
+   {
+    "name": "Quote",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "unknown"
+  ],
+  "trades": [
+   "law firms",
+   "home services",
+   "plumbing",
+   "roofers",
+   "real estate"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "smith-ai-human",
+  "name": "Smith.ai (Human Receptionists)",
+  "kind": "human",
+  "url": "https://smith.ai/pricing/receptionists",
+  "plans": [
+   {
+    "name": "Starter",
+    "price_usd_month": 300,
+    "unit": "calls",
+    "included": 30,
+    "overage_usd": 11.5,
+    "note": ""
+   },
+   {
+    "name": "Basic",
+    "price_usd_month": 810,
+    "unit": "calls",
+    "included": 90,
+    "overage_usd": 10.5,
+    "note": ""
+   },
+   {
+    "name": "Pro",
+    "price_usd_month": 2100,
+    "unit": "calls",
+    "included": 300,
+    "overage_usd": 8.5,
+    "note": ""
+   }
+  ],
+  "integrations": [
+   "Clio",
+   "HubSpot",
+   "Salesforce",
+   "Calendly",
+   "Square",
+   "Zapier"
+  ],
+  "trades": [
+   "law firms",
+   "home services",
+   "medical",
+   "real estate"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 300
+ }
+]
