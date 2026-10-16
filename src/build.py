@@ -2,7 +2,7 @@ import json,csv,os,html,sys
 sys.path.insert(0,"data"); from vendors import V,D
 BASE="https://mhasnainr.github.io/answerdesk"
 PFX="/answerdesk"
-GSC_TOKEN=""  # set to your Google Search Console token to emit the verification tag on the homepage
+GSC_TOKEN="LU96EY5HkNru0ro6KkH3sw_qs4yuoi3ACJ04eHcmZz8"  # set to your Google Search Console token to emit the verification tag on the homepage
 O="site"; os.makedirs(O,exist_ok=True)
 json.dump(V,open("data/vendors.json","w"),indent=1)
 with open("data/vendors.csv","w",newline="") as f:
