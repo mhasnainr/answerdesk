@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mhasnainr.github.io/answerdesk/sitemap.xml
