@@ -1093,5 +1093,232 @@
   "date_checked": "2026-10-16",
   "affiliate": "unknown",
   "price_from": 300
+ },
+ {
+  "slug": "fresha-ai-concierge",
+  "name": "Fresha AI Concierge",
+  "kind": "ai",
+  "url": "https://www.fresha.com/pricing",
+  "plans": [
+   {
+    "name": "AI Concierge add-on",
+    "price_usd_month": 99.95,
+    "unit": "minutes",
+    "included": 200,
+    "overage_usd": 0.6,
+    "note": "per location; add-on to a Fresha plan (from $19.95/mo); 500 messages included then $0.04/msg"
+   }
+  ],
+  "integrations": [
+   "Fresha"
+  ],
+  "trades": [
+   "salons",
+   "spas",
+   "barbershops"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 99.95
+ },
+ {
+  "slug": "boulevard-beau",
+  "name": "Boulevard Beau (AI Receptionist)",
+  "kind": "ai",
+  "url": "https://www.joinblvd.com/pricing",
+  "plans": [
+   {
+    "name": "Beau add-on",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "price not shown on Boulevard's pricing page when checked"
+   }
+  ],
+  "integrations": [
+   "Boulevard"
+  ],
+  "trades": [
+   "salons",
+   "spas",
+   "barbershops"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "zenoti-ai-receptionist",
+  "name": "Zenoti AI Receptionist",
+  "kind": "ai",
+  "url": "https://www.zenoti.com/ai-receptionist",
+  "plans": [
+   {
+    "name": "Quote",
+    "price_usd_month": null,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "no public price"
+   }
+  ],
+  "integrations": [
+   "Zenoti"
+  ],
+  "trades": [
+   "salons",
+   "spas"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": null
+ },
+ {
+  "slug": "agentzap",
+  "name": "AgentZap",
+  "kind": "ai",
+  "url": "https://agentzap.ai/pricing",
+  "plans": [
+   {
+    "name": "Starter",
+    "price_usd_month": 109,
+    "unit": "minutes",
+    "included": 150,
+    "overage_usd": 0.85,
+    "note": "+$499 one-time training & setup"
+   },
+   {
+    "name": "Professional",
+    "price_usd_month": 295,
+    "unit": "minutes",
+    "included": 450,
+    "overage_usd": 0.75,
+    "note": "+$499 setup"
+   },
+   {
+    "name": "Business",
+    "price_usd_month": 899,
+    "unit": "minutes",
+    "included": 1500,
+    "overage_usd": 0.7,
+    "note": "+$499 setup"
+   }
+  ],
+  "integrations": [
+   "Vagaro",
+   "Mindbody",
+   "Google Calendar"
+  ],
+  "trades": [
+   "salons",
+   "spas",
+   "small businesses"
+  ],
+  "free_trial": "unknown",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 109
+ },
+ {
+  "slug": "booking-pro-ai",
+  "name": "Booking Pro AI",
+  "kind": "ai",
+  "url": "https://bookingpro.ai/pricing",
+  "plans": [
+   {
+    "name": "Pay As You Go",
+    "price_usd_month": 139,
+    "unit": "permin",
+    "included": 0,
+    "overage_usd": 0.25,
+    "note": "full platform; AI voice $0.25/min, $0.036/AI message; free plan also offered"
+   }
+  ],
+  "integrations": [
+   "Google Calendar"
+  ],
+  "trades": [
+   "salons",
+   "spas"
+  ],
+  "free_trial": "Free plan; 14-day trial on paid plans",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 139
+ },
+ {
+  "slug": "jvora",
+  "name": "Jvora AI",
+  "kind": "ai",
+  "url": "https://jvora.ai/pricing",
+  "plans": [
+   {
+    "name": "Starter",
+    "price_usd_month": 39,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "booking link + SMS, no voice"
+   },
+   {
+    "name": "Pro AI",
+    "price_usd_month": 79,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "missed-call text"
+   },
+   {
+    "name": "Elite Voice",
+    "price_usd_month": 149,
+    "unit": null,
+    "included": null,
+    "overage_usd": null,
+    "note": "full AI voice receptionist; usage limits not clear"
+   }
+  ],
+  "integrations": [
+   "Square"
+  ],
+  "trades": [
+   "salons",
+   "barbershops"
+  ],
+  "free_trial": "14-day trial",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 39
+ },
+ {
+  "slug": "bukkii-aiva",
+  "name": "Bukkii AIVA",
+  "kind": "ai",
+  "url": "https://bukkii.ai/pricing",
+  "plans": [
+   {
+    "name": "AIVA + pay-as-you-go voice",
+    "price_usd_month": 0,
+    "unit": "permin",
+    "included": 0,
+    "overage_usd": 0.35,
+    "note": "AIVA is $200 one-time (number + setup); calendar free up to 3 staff, $20/mo unlimited; minute packs cheaper"
+   }
+  ],
+  "integrations": [
+   "Reserve with Google"
+  ],
+  "trades": [
+   "salons",
+   "nail",
+   "lash"
+  ],
+  "free_trial": "No free trial",
+  "date_checked": "2026-10-16",
+  "affiliate": "unknown",
+  "price_from": 0
  }
 ]
